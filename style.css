@@ -79,9 +79,7 @@ a:hover{
 
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.head-1{
-   /* margin: 0 2rem;*/
-}
+
 .title img{
     height: 8.5rem;
 }
@@ -480,9 +478,12 @@ textarea::placeholder{
 
 .footer h5,h6{
   margin-bottom: 0;
-  color: black;
+  color: white;
   align-items: center;
 
+}
+.footer i, .footer a{
+  color: white;
 }
 .first .col{
   margin: auto;
