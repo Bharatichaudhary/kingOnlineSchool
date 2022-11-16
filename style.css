@@ -176,8 +176,30 @@ border-collapse: collapse;
     border-collapse: collapse;
 
   }
+  .info img{
+    height: 2rem;
+    width: 2rem;
+    box-shadow:none ;
+  }
+  .vision, .mission{
+    border-radius: 1rem;
+    width: 50%;
+    margin: 1rem ;
+    text-align: left;
+  }
+  .info h4{
+    border-bottom: 2px solid #bcbcbe;
+    text-align: left;
+    padding-bottom: 1rem;
+  }
   .about .info,.owned{
     width:50%;
+  }
+  .owned .btn{
+    background-color: #b66b16;
+    color: white;
+    font-size: 1.4rem;
+    margin-top: 2rem;
   }
   .about h4{
     margin: 1rem 0;
@@ -411,6 +433,10 @@ margin-top:-1rem;
   background-color: white;
   border-radius: 1rem;
 }
+.subscribe img{
+  height: 15rem;
+  width: 100%;
+}
 .subscribe input{
   border-radius: 1.5rem;
   margin: 1rem 2rem;
@@ -461,12 +487,44 @@ textarea::placeholder{
   font-size: 1.2rem;
   padding: 0.5rem;
 }
+.message{
+  border: 2px solid rgb(212, 206, 206);
+  margin: 2rem 10%;
+  margin-top: 7rem;
+  border-radius: 2rem;
+
+}
+.message h2{
+  margin: auto;
+  margin-top: -2rem;
+  width: 40%;
+  background-color: #eaeaef;
+  
+}
 .message .row img{
-  width:20rem;
-  height: 20rem;
+  width:15rem;
+  height: 15rem;
+  margin-top: 2rem;
   border-radius: 10rem;
-  box-shadow: rgba(0,0,0,0.8) 0 0 25px;
+  box-shadow: -20px 25px 10px #888888;
   border-collapse: collapse;
+}
+.message .card-body img{
+  width: 2rem;
+  height: 2rem;
+  margin: 1rem 0.5rem;
+  box-shadow: -10px 3px 10px #888888;
+
+}
+.message .card-body{
+  text-align: left;
+}
+.message h4{
+  text-align: left;
+  margin-bottom: 0;
+}
+.message .card-body p{
+ /* margin-top: 2rem;*/
 }
 .footer{
   padding: 2rem;
