@@ -42,6 +42,9 @@ a:hover{
     font-weight: 500;
     padding:  0 2rem;
 }
+.navbar{
+
+}
 .line{
     border: 2px solid #b66b16;
     border-radius: 2px;
@@ -52,6 +55,7 @@ a:hover{
 }
 .menu .nav-link{
     color: black;
+    font-size: 1.2rem;
 }
 
 .search{
