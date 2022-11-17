@@ -1,4 +1,4 @@
-if (screen.width > 720) {
+if (screen.width > 700) {
 
     var left = 1;
     var right = 3;
@@ -50,35 +50,8 @@ if (screen.width > 720) {
       }
     
     }
-    function movleft()
-    {
-        if (left <= 5 && right <= 8) {
     
-    document.getElementById("a" + left).style.display = "none";
-    left = left + 1;
-    right = right + 1;
-    for (i = left; i <= right; i++) {
-    document.getElementById("a" + i).style.display = "inline-block";
-    
-    }
-    } else 
-    return;
-    }
-    function movright() {
-      if (left > 1 && right > 3 ) {
-    
-        document.getElementById("a" + right).style.display = "none";
-        left = left - 1;
-        right = right - 1;
-        for (i = left; i <= right; i++) {
-          document.getElementById("a" + i).style.display = "inline-block";
-    
-        }
-      } else {
-        return;
-      }
-    
-    }
+
     }
     
     
@@ -175,3 +148,10 @@ if (screen.width > 720) {
             tabBodyElement[i].classList.add("active");
         });
     }
+
+    if(screen.width < 1100){
+      document.querySelector(".navbar").classList.remove("navbar-expand-lg");
+      document.querySelector(".blogger").classList.remove("container");
+
+    }
+    

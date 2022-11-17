@@ -8,7 +8,17 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" media="screen and (max-width: 1240px)" href="style1.css">
+  <link rel="stylesheet" media="screen and (max-width: 1100px)" href="style1.css">
+  <link rel="stylesheet" media="screen and (max-width: 900px)" href="style2.css">
+  <link rel="stylesheet" media="screen and (max-width: 700px)" href="style3.css">
+  <link rel="stylesheet" media="screen and (max-width: 500px)" href="style4.css">
+  <link rel="stylesheet" media="screen and (max-width: 420px)" href="style.5.css">
+  <link rel="stylesheet" media="screen and (max-width: 350px)" href="style6.css">
+
+
+
+
+
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -35,10 +45,10 @@
     </div>
 
     <div class=" head-1 container text-center">
-      <div class="row">
+      <div class="d-flex row">
         <div class="col">
           <div class="title">
-            <img src="./image/Untitled design.png">
+            <img class ="img-fluid"src="./image/Untitled design.png">
             <!--<h1>King's</h1>
            <h3>Online School</h3>-->
           </div>
@@ -50,7 +60,7 @@
         </div>
         <div class="col">
           <div class="addver">
-            <video loop="true" autoplay="autoplay">
+            <video loop="true" autoplay="autoplay" id="myvideo">
               <source src="./image/Creative Workshop.mp4">
             </video>
           </div>
@@ -163,18 +173,27 @@
 
 
               </ul>
+           
               
-                <!--<form class="d-flex" role="search">
-                <a class="search_icon"><i class="bi bi-search"></i></a>
+              <!--<a class="search_icon"><i class="bi bi-search"></i></a>
+                <form class="d-flex" role="search">
 
                 <input class="form-control me-2 search" type="search" placeholder="Search" aria-label="Search">
                 <div class="d-flex mx-2 login"><i class="bi bi-person-circle mx-2"></i>
-                <a>Login/Register</a></div>
-              </form>-->
+                </form>
+                <a>Login/Register</a></div>-->
               </div>
             </div>
         </nav>
-        <div class="search d-flex">
+        <div class="login d-flex">
+        <form class="nosubmit my-3">
+          <input class="nosubmit" type="search" placeholder="Search...">
+        </form>
+        <a id="show-Login"><i class="bi bi-person-circle"></i></a>
+
+        </div>
+
+       <!-- <div class="search d-flex">
         <div class="search-box ">
           <i class="bi bi-search"></i>
           <input  type="search" placeholder="Search...">
@@ -182,7 +201,7 @@
         </div>
         <div class="d-flex mx-2 login"><a id="show-Login"><i class="bi bi-person-circle"></i></a>
       </div>
-      </div>
+      </div>-->
     </div>
   </div>
   <div class="slider my-4">
@@ -205,7 +224,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./image/slider2.png" class="d-block w-100" alt="...">
+          <img src="./image/slider2.png" class="d-block w-100 img-fluid" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <p>Learn Web Designing and Development in Online Mode, Get job in a Month.</p>
             <button>Enroll Now</button>
@@ -353,12 +372,12 @@
         <h5 data-aos="fade-right" data-aos-duration="2000">What are we doing, and why are we doing it???</h5>
         <div class="d-flex">
           <div class="vision">
-            <h4 data-aos="fade-right" data-aos-duration="2000">Our Vision <img src="./image/vision.png" alt=""> </h4>
+            <h4 data-aos="fade-right" data-aos-duration="2000">Our Vision <img class ="img-fluid" src="./image/vision.png" alt=""> </h4>
             <p data-aos="fade-right" data-aos-duration="2000">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, libero! Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, voluptate?
             </p>
           </div>
           <div class="mission">
-            <h4 data-aos="fade-left" data-aos-duration="2000">Our Mission <img src="./image/mission.png" alt=""> </h4>
+            <h4 data-aos="fade-left" data-aos-duration="2000">Our Mission <img class ="img-fluid" src="./image/mission.png" alt=""> </h4>
             <p data-aos="fade-left" data-aos-duration="2000">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quae.</p>
           </div>
         </div>
@@ -367,7 +386,7 @@
       <h2 data-aos="fade-in" data-aos-duration="2000">Online IT institute</h2>
       <h4 data-aos="fade-left" data-aos-duration="2000">Owned By:</h4>
       <div class="d-flex">
-      <img data-aos="fade-out" data-aos-duration="2000" src="./image/logo.jpg">
+      <img data-aos="fade-out" data-aos-duration="2000" class ="img-fluid" src="./image/logo.jpg">
       <div class="des">
         <h5 data-aos="fade-left" data-aos-duration="2000">King's IT & Multimedia</h5>
         <p data-aos="fade-left" data-aos-duration="2000">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias itaque culpa facilis. Eius, commodi blanditiis veritatis quod maiores ut dicta provident, necessitatibus mollitia rem nam! Quis possimus vitae assumenda in placeat dolore aliquam libero.</p>
@@ -486,10 +505,10 @@
     <h2>Top Ten Courses</h2>
     <div class="d-flex">
       <div class="blog">
-        <div class="container text-center">
+        <div class="blogger container text-center">
           <div class="row row-cols-5">
             <div class="col" data-aos="fade-left" data-aos-duration="2000">
-              <div class="card" style="width: 12rem;">
+              <div class="card" >
                 <img src="./image/basic.jpeg" class="card-img-top" alt="...">
                 <div class="label">3 Months</div>
                 <div class="card-body">
@@ -501,7 +520,7 @@
               </div>
             </div>
             <div class="col" data-aos="fade-left" data-aos-duration="2000">
-              <div class="card" style="width: 12rem;">
+              <div class="card">
                 <img src="./image/short.jpeg" class="card-img-top" alt="...">
                 <div class="label">3-5 Months</div>
                 <div class="card-body">
@@ -513,7 +532,7 @@
               </div>
             </div>
             <div class="col"data-aos="fade-left" data-aos-duration="2000">
-              <div class="card" style="width: 12rem;">
+              <div class="card" >
                 <img src="./image/advance.jpeg" class="card-img-top" alt="...">
                 <div class="label">1 year</div>
                 <div class="card-body">
@@ -525,7 +544,7 @@
               </div>
             </div>
             <div class="col" data-aos="fade-left" data-aos-duration="2000">
-              <div class="card" style="width: 12rem;">
+              <div class="card" >
                 <img src="./image/certificate.jpeg" class="card-img-top" alt="...">
                 <div class="label">6 months</div>
                 <div class="card-body">
@@ -537,7 +556,7 @@
               </div>
             </div>
             <div class="col" data-aos="fade-left" data-aos-duration="2000">
-              <div class="card" style="width: 12rem;">
+              <div class="card" >
                 <img src="./image/diploma.jpeg" class="card-img-top" alt="...">
                 <div class="label">1.5 years</div>
                 <div class="card-body">
@@ -549,7 +568,7 @@
               </div>
             </div>
             <div class="col" data-aos="fade-right" data-aos-duration="2000">
-              <div class="card" style="width: 12rem;">
+              <div class="card">
                 <img src="./image/certificate.jpeg" class="card-img-top" alt="...">
                 <div class="label">6 months</div>
                 <div class="card-body">
@@ -561,7 +580,7 @@
               </div>
             </div>
             <div class="col" data-aos="fade-right" data-aos-duration="2000">
-              <div class="card" style="width: 12rem;">
+              <div class="card" >
                 <img src="./image/advance.jpeg" class="card-img-top" alt="...">
                 <div class="label">1 year</div>
                 <div class="card-body">
@@ -573,7 +592,7 @@
               </div>
             </div>
             <div class="col"  data-aos="fade-right" data-aos-duration="2000">
-              <div class="card" style="width: 12rem;">
+              <div class="card" >
                 <img src="./image/certificate.jpeg" class="card-img-top" alt="...">
                 <div class="label">6 months</div>
                 <div class="card-body">
@@ -585,7 +604,7 @@
               </div>
             </div>
             <div class="col" data-aos="fade-right" data-aos-duration="2000">
-              <div class="card" style="width: 12rem;">
+              <div class="card" >
                 <img src="./image/diploma.jpeg" class="card-img-top" alt="...">
                 <div class="label">1.5 years</div>
                 <div class="card-body">
@@ -597,7 +616,7 @@
               </div>
             </div>
             <div class="col" data-aos="fade-right" data-aos-duration="2000">
-              <div class="card" style="width: 12rem;">
+              <div class="card" >
                 <img src="./image/certificate.jpeg" class="card-img-top" alt="...">
                 <div class="label">6 months</div>
                 <div class="card-body">
@@ -1055,7 +1074,7 @@
     <div class="container text-center">
       <div class="row">
         <div class="col"  data-aos="fade-right" data-aos-duration="2000">
-          <img src="./image/profile.jpeg">
+          <img src="./image/profile.jpeg" class ="img-fluid">
         </div>
         <div class="col"  data-aos="fade-left" data-aos-duration="2000">
           <div class="card-body">
@@ -1063,10 +1082,10 @@
             <h5>Company-name</h5>
 
             <div class="d-flex">
-              <img src="./image/fblogo.jpeg" alt="">
-              <img src="./image/instalogo.jpeg" alt="">
-              <img src="./image/linkedlogo.png" alt="">
-              <img src="./image/twitterlogo.png" alt="">
+              <img class ="img-fluid" src="./image/fblogo.jpeg" alt="">
+              <img class ="img-fluid" src="./image/instalogo.jpeg" alt="">
+              <img class ="img-fluid" src="./image/linkedlogo.png" alt="">
+              <img class ="img-fluid" src="./image/twitterlogo.png" alt="">
 
             </div>
             <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo aut eveniet optio
@@ -1093,7 +1112,7 @@
 
         </div>
         <div class="col logo">
-          <img src="./image/logo.jpg" alt="">
+          <img class ="img-fluid" src="./image/logo.jpg" alt="">
         </div>
         <div class="col">
           <h5>Contacts:</h5>
@@ -1108,32 +1127,30 @@
       <div class="row">
         <div class="col">
           <h5><a href="#" target="iframe_a"><i class="bi bi-facebook"></i>Facebook Page</a></h5>
-          <iframe src="//www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2FTriplex.Mobildiskotekf&amp;width=300&amp;height=300&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=true&amp;header=true&amp;appId=219650941461322" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%;
-          height:300px;" allowTransparency="true"></iframe>
-
-
+          <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-width="" data-height="5rem" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>
+        
         </div>
+        
         <div class="col">
-          <iframe src="" ></iframe>
-          <h5><a href="#" target="iframe_b"><i class="bi bi-hand-thumbs-up-fill"></i>Likebox</a></h5>
-        </div>
-        <div class="col">
-          <iframe src="#" name="iframe_c" ></iframe>
           <h5><a href="#" target="iframe_c"><i class="bi bi-youtube"></i>Youtube</a></h5>
+          <iframe src="#" name="iframe_c" ></iframe>
         </div>
       </div>
     </div>
     <div class="payments col text-center">
       <h5>Payments:</h5>
-      <img src="./image/bank_logo.png" alt="">
-      <img src="./image/khalti_logo.png" alt="">
-      <img src="./image/esewa_logo.png" alt="">
+      <img class ="img-fluid" src="./image/bank_logo.png" alt="">
+      <img class ="img-fluid" src="./image/khalti_logo.png" alt="">
+      <img class ="img-fluid" src="./image/esewa_logo.png" alt="">
     </div>
     <div class="center text-center text-white">
       copyright &copy; www.king'sonlineschool.com All rights reserved!
   </div>
   </div>
 
+
+  <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v15.0" nonce="7Xy74Qi3"></script>
   <script src="./index.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"

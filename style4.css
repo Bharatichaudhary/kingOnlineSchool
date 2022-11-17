@@ -1,0 +1,69 @@
+.card .btn {
+    font-size: 0.4rem;
+}
+.top_courses .btn {
+    padding: 0.2rem 0.2rem;
+}
+.logo img {
+    height: 100px;
+    width: 100px;
+    /* margin-top: -1rem; */
+    border-radius: 85px;
+}
+
+.title img {
+    height: 5.5rem;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+.Course-Structure .col img {
+    height: 5rem;
+    width: 60%;
+    overflow: hidden;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+h5 {
+    font-size: 1rem;
+}.coverage .card img {
+    height: 6rem;
+}
+.coverage .card-body {
+    background-color: rgb(98, 98, 116, 0.5);
+    color: #221c15;
+    font-weight: 700;
+    padding: 0.2rem;
+    margin-top: -1.7rem;
+}.coverage .card-body p{
+    font-size: 0.8rem;
+}
+.subscribe {
+    padding: 2rem;
+    width: 90%;
+    margin: 4rem auto;
+    background-color: white;
+    border-radius: 1rem;
+}
+.enquiry {
+    background-color: white;
+    width: 95%;
+    margin: auto;
+}
+.col-11 {
+    flex: 0 0 auto;
+    width: 82.666667%;
+}
+h2{
+    font-size: 1.4rem;
+}
+h4{
+    font-size: 1rem;
+}
+.childd {
+    width: 100%;
+    margin: 2rem 0rem;
+    display: inline-block;
+}

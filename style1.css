@@ -1,0 +1,41 @@
+a,p{
+    font-size: 0.8rem;
+}
+h2{
+    font-size: 2rem;
+}
+h4{
+    font-size: 1.4rem;
+}
+
+.top_courses h5{
+    font-size: 0.8rem;
+}
+.top_courses{
+    margin: 1.5rem 1rem;
+    padding: 0rem;
+}
+.card .btn{
+    font-size: 0.8rem;
+}
+.menu .nav-link{
+    font-size: 1rem;
+}
+.carousel-caption {
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+    width: 25rem;
+    left: 45%;
+    bottom: 4.25rem;
+}
+.carousel-caption p {
+    font-size: 1.5rem;
+}
+.owned {
+    width: 55%;
+}
+.info{
+    width: 45%;
+
+}

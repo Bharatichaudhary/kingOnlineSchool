@@ -1,0 +1,43 @@
+.childd .card{
+    margin: auto 0.4rem;
+    /*width: 18rem;*/
+  
+  
+  }
+  .about img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 8rem;
+    box-shadow: rgb(0 0 0 / 80%) 0 0 35px;
+    border-collapse: collapse;
+}
+.blogger .card-body{
+    padding: 0rem;
+}
+.info img {
+    height: 1rem;
+    width: 1rem;
+    box-shadow: none;
+}
+.review img {
+    height: 7rem;
+    width: 7rem;
+    margin: auto;
+    border-radius: 6rem;
+    margin-top: -3.5rem;
+    padding: 0.5rem;
+    background-color: white;
+}
+.blogger p{
+    font-size: 0.5rem;
+}
+.top_courses .card p {
+    font-size: 0.5rem;
+}
+.top_courses .btn{
+    padding: 0.2rem 0.5rem;
+}
+.about {
+    text-align: center;
+    padding: 1rem 1rem;
+}

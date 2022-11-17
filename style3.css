@@ -1,0 +1,110 @@
+.about img {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 4rem;
+    box-shadow: rgb(0 0 0 / 80%) 0 0 35px;
+    border-collapse: collapse;
+}
+.info h4{
+    font-size: 1rem;
+}
+.info img {
+    height: 1rem;
+    width: 1rem;
+    box-shadow: none;
+}
+p{
+    font-size: 0.5rem;
+}
+.message {
+    border: 2px solid rgb(212, 206, 206);
+    margin: 2rem 4%;
+    margin-top: 7rem;
+    border-radius: 2rem;
+}
+.message .row img {
+    width: 8rem;
+    height: 8rem;
+    margin-top: 2rem;
+    border-radius: 10rem;
+    box-shadow: -20px 25px 10px #888888;
+    border-collapse: collapse;
+}
+.message .card-body img {
+    width: 1rem;
+    height: 1rem;
+    margin: 0.5rem 0.2rem;
+    box-shadow: -10px 3px 10px #888888;
+}
+.label {
+    margin: auto;
+    margin-right: 0;
+    margin-top: -1.2rem;
+    font-size: 0.5rem;
+    font-weight: 800;
+    background-color: #eaeaef;
+    color: #b66b16;
+    padding: 0.2rem;
+}
+a,i {
+    font-size: 0.5rem;
+}
+
+.first img {
+    height: 6rem;
+    width: 6rem;
+}
+.top_courses .col img {
+    height: 4rem;
+    overflow: hidden;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+.slider img {
+    height: 14rem;
+}
+.owned .btn {
+    background-color: #b66b16;
+    color: white;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.childd{
+    width: 100%;
+    margin: 2rem 1rem;
+    display: inline-block;
+
+}
+.review{
+    width: 100%;
+    overflow-x: scroll;
+
+}
+.leftarrow,.rightarrow{
+    
+    display: none;
+}
+.review {
+    display: flex;
+    text-align: center;
+    margin: 2rem 0rem;
+}
+
+.review {
+    display: flex;
+     justify-content:left; 
+    align-items: center;
+}
+.childd .card {
+    margin: auto 0.4rem;
+    width: 10rem;
+}
+.review img {
+    height: 4rem;
+    width: 4rem;
+    margin: auto;
+    border-radius: 6rem;
+    margin-top: -1.5rem;
+    padding: 0.5rem;
+    background-color: white;
+}

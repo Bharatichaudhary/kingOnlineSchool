@@ -49,6 +49,7 @@ a:hover{
     border: 2px solid #b66b16;
     border-radius: 2px;
     margin: 0 1rem;
+    background-color: #b66b16;
 }
 .menu .nav-item .active_ {
     color: #b66b16;
@@ -57,7 +58,9 @@ a:hover{
     color: black;
     font-size: 1.2rem;
 }
-
+.menu .navbar{
+  margin-right: 2rem!important;
+}
 .search{
     border-radius: 2rem;
     /*height: 2rem;*/
@@ -100,11 +103,18 @@ a:hover{
 }
 form.nosubmit {
     border: none;
-    padding: 0;
+    padding: 0px;
+    float: right;
+  }
+  .login{
+    float: right;
+    position: absolute;
+    right: 2rem;
   }
   
   input.nosubmit {
     width: 12rem;
+    margin-right: 1rem;
     height: 2rem;
     border: none;
     display: block;
@@ -392,8 +402,8 @@ margin-top:-1rem;
 
 }
 .childd .card{
-  margin: auto;
-  width: 18rem;
+  margin: auto 1rem;
+  /*width: 18rem;*/
 
 
 }
