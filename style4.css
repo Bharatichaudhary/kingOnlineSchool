@@ -10,7 +10,13 @@
     /* margin-top: -1rem; */
     border-radius: 85px;
 }
-
+.iframe{
+    width:90%;
+     height:205px;
+  }
+  .second .row{
+    display: block;
+  }
 .title img {
     height: 5.5rem;
 }
