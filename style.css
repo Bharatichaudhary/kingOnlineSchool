@@ -440,12 +440,19 @@ margin-top:-1rem;
   border-top-left-radius: 0rem;
   border-top-right-radius: 0rem;
 }
+.sub{
+  /*background-image: url(./image/bg1.webp);*/
+  padding: 2rem 0rem;
+  
+
+}
 .subscribe{
   padding: 2rem;
   width: 60%;
   margin: 4rem auto;
-  background-color: white;
   border-radius: 1rem;
+  background-color: white;
+
 }
 .subscribe img{
   height: 15rem;
@@ -465,6 +472,9 @@ margin-top:-1rem;
   padding: 0 2rem;
 
 }*/
+.enquiry{
+  background-image: url(./image/bg.jpg);
+}
 .enquiry select,.enquiry textarea{
   margin: 1rem 0rem;
   border: none;
@@ -490,16 +500,20 @@ margin: 1rem 2rem;
   background-color: white;
   width: 80%;
   margin: auto;
+  border-radius: 1rem;
+
 }
-.enquiry input{
+.enquiry input, .enquiry textarea{
   border: none;
   border-bottom: 2px solid #bcbcbe;
   border-radius: 0;
+  background: none;
 }
-textarea::placeholder{
+.enquiry textarea::placeholder, .enquiry input::placeholder{
  /* font-size: 2rem !important;*/
   font-size: 1.2rem;
   padding: 0.5rem;
+  color: #bcbcbe;
 }
 .message{
   border: 2px solid rgb(212, 206, 206);
@@ -737,6 +751,16 @@ label:focus,
 .btn.active
 {
     outline:0px !important;
-    -webkit-appearance:none;
     box-shadow: none !important;
+}
+.enquiry input:active,
+.enquiry input:focus,
+.enquiry textarea:focus,
+.enquiry textarea:active{
+  background: none;
+  color: #dadae2;
+
+}
+.enquiry input{
+  color: #dadae2;
 }
