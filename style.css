@@ -867,6 +867,7 @@ label:focus,
 .All-course h4{
   margin-bottom: 0.5rem;
   cursor: pointer;
+  font-size: 1.6rem;
 }
 .All-course h4:hover{
   color: black;
@@ -892,6 +893,6 @@ label:focus,
   border-bottom: none;
 }
 .date h4{
-  border-bottom: 4px solid #b66b16;
+  border-bottom: 3px solid #b66b16;
   padding-bottom: 0.5rem;
 }
